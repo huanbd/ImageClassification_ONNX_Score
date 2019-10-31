@@ -1,6 +1,5 @@
 ﻿using ImageClassification_ONNX_Scoring.Helper;
 using ImageClassification_ONNX_Scoring.Model;
-using ImageClassification_ONNX_Scoring.ResNet;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using System;
@@ -21,8 +20,6 @@ namespace ImageClassification_ONNX_Scoring
         private readonly string labelsLocation;
 
         private readonly MLContext mlContext;
-
-        private IList<BoundingBox> _boundingBoxes = new List<BoundingBox>();
 
         public OnnxModelScorer(string dataLocation, string imagesFolder, string modelLocation, string labelsLocation)
         {

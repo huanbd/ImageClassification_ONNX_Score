@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.138
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageClassification_ONNX_Scoring", "ImageClassification_ONNX_Scoring\ImageClassification_ONNX_Scoring.csproj", "{71B7AEB9-D115-4DC7-B059-255D0CB2BDF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71B7AEB9-D115-4DC7-B059-255D0CB2BDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B7AEB9-D115-4DC7-B059-255D0CB2BDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B7AEB9-D115-4DC7-B059-255D0CB2BDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B7AEB9-D115-4DC7-B059-255D0CB2BDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C1922B9-76FF-4DD4-836D-8CD0C90C7C08}
+	EndGlobalSection
+EndGlobal
